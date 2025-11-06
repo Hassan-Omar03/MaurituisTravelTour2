@@ -1,0 +1,275 @@
+ @import "tailwindcss";
+
+:root {
+  --background: #000;   /* was #ffffff */
+  --foreground: #171717;
+}
+
+.MyContainer{
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.MyContainer2{
+    width: 95%;
+    max-width: 1400px;
+    box-sizing: border-box;
+    margin: auto;
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tech-row {
+  display: flex;
+  align-items: center;
+  width: calc(5 * (120px + 160px)); /* 5 items × (image width + spacing) */
+}
+
+.tech-item {
+  width: 120px;
+  margin: 0 80px; /* 160px total horizontal spacing */
+  display: flex;
+  justify-content: center;
+}
+
+.tech-row-2 {
+  display: flex;
+  align-items: center;
+  width: calc(6 * (120px + 140px)); /* 6 items × (image width + spacing) */
+}
+
+.tech-item-2 {
+  width: 120px;
+  margin: 0 70px; /* 140px total horizontal spacing */
+  display: flex;
+  justify-content: center;
+}
+
+/* Seamless scrolling animations - Fixed for smooth looping */
+@keyframes scroll-right-seamless {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-1 * (5 * (120px + 160px))));
+  }
+}
+
+@keyframes scroll-left-seamless {
+  0% {
+    transform: translateX(calc(-1 * (6 * (120px + 140px))));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-right-seamless {
+  animation: scroll-right-seamless 8s linear infinite;
+}
+
+.animate-scroll-left-seamless {
+  animation: scroll-left-seamless 8s linear infinite;
+}
+
+@keyframes alternatingCaret {
+  0%,
+  24.9% {
+    caret-color: black;
+  }
+  25%,
+  49.9% {
+    caret-color: transparent;
+  }
+  50%,
+  74.9% {
+    caret-color: rgb(39, 188, 173);
+  }
+  75%,
+  100% {
+    caret-color: transparent;
+  }
+}
+
+.alternating-caret {
+  animation: alternatingCaret 2s linear infinite;
+}
+
+/* Alternative smoother version */
+@keyframes smoothAlternatingCaret {
+  0%,
+  45% {
+    caret-color: black;
+  }
+  45.1%,
+  49.9% {
+    caret-color: transparent;
+  }
+  50%,
+  95% {
+    caret-color: rgb(39, 188, 173);
+  }
+  95.1%,
+  100% {
+    caret-color: transparent;
+  }
+}
+
+.smooth-alternating-caret {
+  animation: smoothAlternatingCaret 2s ease-in-out infinite;
+}
+
+
+
+/* Ensure smooth rendering */
+.animate-scroll-right-seamless,
+.animate-scroll-left-seamless {
+  will-change: transform;
+}
+
+/* Responsive spacing adjustments */
+@media (max-width: 1280px) {
+  .tech-item {
+    margin: 0 60px;
+  }
+
+  .tech-item-2 {
+    margin: 0 50px;
+  }
+
+  .tech-row {
+    width: calc(5 * (120px + 120px));
+  }
+
+  .tech-row-2 {
+    width: calc(6 * (120px + 100px));
+  }
+
+  /* Responsive animation adjustments */
+  @keyframes scroll-right-seamless {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1 * (5 * (120px + 120px))));
+    }
+  }
+
+  @keyframes scroll-left-seamless {
+    0% {
+      transform: translateX(calc(-1 * (6 * (120px + 100px))));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-item {
+    margin: 0 40px;
+  }
+
+  .tech-item-2 {
+    margin: 0 30px;
+  }
+
+  .tech-row {
+    width: calc(5 * (120px + 80px));
+  }
+
+  .tech-row-2 {
+    width: calc(6 * (120px + 60px));
+  }
+
+  /* Responsive animation adjustments */
+  @keyframes scroll-right-seamless {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1 * (5 * (120px + 80px))));
+    }
+  }
+
+  @keyframes scroll-left-seamless {
+    0% {
+      transform: translateX(calc(-1 * (6 * (120px + 60px))));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .tech-item {
+    margin: 0 25px;
+    width: 100px;
+  }
+
+  .tech-item-2 {
+    margin: 0 20px;
+    width: 100px;
+  }
+
+  .tech-row {
+    width: calc(5 * (100px + 50px));
+  }
+
+  .tech-row-2 {
+    width: calc(6 * (100px + 40px));
+  }
+
+  /* Responsive animation adjustments */
+  @keyframes scroll-right-seamless {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-1 * (5 * (100px + 50px))));
+    }
+  }
+
+  @keyframes scroll-left-seamless {
+    0% {
+      transform: translateX(calc(-1 * (6 * (100px + 40px))));
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+@keyframes crossfade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.arrow-aqua {
+  animation: crossfade 6s infinite ease-in-out;
+}
+
+.arrow-black {
+  animation: crossfade 6s infinite ease-in-out reverse;
+}

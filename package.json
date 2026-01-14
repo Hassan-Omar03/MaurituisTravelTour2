@@ -13,12 +13,13 @@
     "framer-motion": "^12.23.24",
     "lucide-react": "^0.544.0",
     "mongoose": "^8.18.3",
-    "next": "15.5.2",
+    "next": "^16.1.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-google-reviews": "^1.7.4"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.2",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/estree": "^1.0.8",
@@ -29,7 +30,6 @@
     "eslint-config-next": "15.5.3",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "@cloudflare/next-on-pages": "^1.13.2",
     "wrangler": "^3.78.0"
   }
 }

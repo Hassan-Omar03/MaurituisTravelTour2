@@ -125,7 +125,8 @@ export default function HomePage() {
           </div>
 
           {/* cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 sm:px-8 lg:px-16 xl:px-24 py-12 bg-white max-w-[1400px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 px-4 sm:px-8 lg:px-16 xl:px-24 py-12 bg-white max-w-[1400px] mx-auto">
+
   {[
     {
       title: "Package 1: North Tour 1",
@@ -140,6 +141,76 @@ export default function HomePage() {
       img: hero1.src,
       link: "/Package2",
       places: ["Caudan Waterfront", "Bazar Port Louis", "Fort Adelaide At Citadelle"],
+    },
+    {
+      title: "Package 3: North Tour 3",
+      desc: "Fort Adelaide (the Citadel) in Mauritius is a historic hilltop fortress rich with heritage and panoramic views. Discover its stone ramparts, colonial architecture, and sweeping vistas over Port Louis, offering a glimpse into the island’s past within a calm, elevated atmosphere.",
+      img: hero1.src,
+      link: "/NorthTourPkg3",
+      places: ["Fort Adelaide At Citadelle"],
+    },
+    {
+      title: "Package 4: North Tour 4",
+      desc: "Caudan Waterfront in Mauritius is a vibrant seaside destination blending shopping, culture, and leisure. Explore its stylish boutiques, local craft markets, waterfront cafés, and scenic harbor views, all set within a lively yet relaxed coastal atmosphere.",
+      img: hero1.src,
+      link: "/NorthTourPkg4",
+      places: ["Caudan Waterfront"],
+    },
+    {
+      title: "Package 5: North Tour 5",
+      desc: "Kuanfu Tea Shop is a cozy and modern spot known for its refreshing bubble teas and handcrafted drinks. Enjoy a variety of flavorful milk teas, fruit infusions, and signature blends, served in a relaxed atmosphere perfect for unwinding and casual meetups.",
+      img: hero1.src,
+      link: "/NorthTourPkg5",
+      places: ["Kuanfu Tea Shop"],
+    },
+    {
+      title: "Package 6: North Tour 6",
+      desc: "Odysseo Oceanarium is a spectacular marine attraction showcasing the wonders of ocean life. Explore immersive exhibits, massive aquariums, and diverse marine species in a captivating environment that inspires learning, conservation, and appreciation for the underwater world.",
+      img: hero1.src,
+      link: "/NorthTourPkg6",
+      places: ["Odysseo Oceanarium"],
+    },
+    {
+      title: "Package 7: North Tour 7",
+      desc: "L’Aventure du Sucre is a fascinating sugar factory museum that brings Mauritius’s rich heritage to life. Explore historic machinery, interactive exhibits, and the story of sugar production, culture, and trade, all set within a beautifully restored industrial setting.",
+      img: hero1.src,
+      link: "/NorthTourPkg7",
+      places: ["L’Aventure du Sucre"],
+    },
+    {
+      title: "Package 8: North Tour 8",
+      desc: "Pamplemousses Botanical Garden is a serene natural sanctuary celebrated for its lush greenery and rare plant species. Stroll through shaded pathways, admire giant water lilies and ancient trees, and experience the calm beauty of one of Mauritius’s most iconic gardens.",
+      img: hero1.src,
+      link: "/NorthTourPkg8",
+      places: ["Pamplemousses Botanical Garden"],
+    },
+    {
+      title: "Package 9: North Tour 9",
+      desc: "Château de Labourdonnais is an elegant colonial estate reflecting Mauritius’s rich history and refinement. Explore its beautifully restored mansion, manicured gardens, and surrounding orchards, offering a graceful glimpse into island heritage and timeless charm.",
+      img: hero1.src,
+      link: "/NorthTourPkg9",
+      places: ["Château de Labourdonnais"],
+    },
+    {
+      title: "Package 10: North Tour 10",
+      desc: "Blue Safari is an exciting underwater adventure offering a unique view of Mauritius’s marine life. Glide beneath the ocean’s surface in a submarine-style vessel and discover colorful coral reefs, tropical fish, and the beauty of the deep in a thrilling, immersive experience.",
+      img: hero1.src,
+      link: "/NorthTourPkg10",
+      places: ["Blue Safari"],
+    },
+    {
+      title: "Package 11: North Tour 11",
+      desc: "Grand Baie La Croisette is a modern lifestyle and shopping destination in Mauritius. Enjoy its stylish stores, diverse dining options, entertainment spaces, and relaxed surroundings, making it a lively hub for leisure and everyday experiences.",
+      img: hero1.src,
+      link: "/Package2",
+      places: ["Grand Baie La Croisette"],
+    },
+    {
+      title: "Package 12: North Tour 12",
+      desc: "Red Church (Notre-Dame Auxiliatrice) is a charming seaside landmark famous for its striking red roof and peaceful setting. Admire its simple architecture, oceanfront views, and serene atmosphere, making it one of Mauritius’s most photographed and tranquil sites.",
+      img: hero1.src,
+      link: "/Package2",
+      places: ["Red Church (Notre-Dame Auxiliatrice)"],
     },
   ].map((card, idx) => (
     <article

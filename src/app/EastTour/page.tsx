@@ -146,6 +146,71 @@ export default function HomePage() {
       link: "/EastTourPkg3",
       Places: ["Horse Riding", "Flacq Centeral Market", "Coeur De Ville"],
     },
+    {
+      title: "Package 4: East Tour 4",
+      desc: "A **boat trip to Île aux Cerfs and the Grand River South East Waterfall promises turquoise waters, lush riverbanks, and island charm. Gliding across the lagoon and up the river, it blends tropical beauty, gentle adventure, and unforgettable coastal scenery.",
+      img: hero1.src,
+      link: "/EastTourPkg4",
+      Places: ["Île aux Cerfs"],
+    },
+    {
+      title: "Package 5: East Tour 5",
+      desc: "Legasea Horse Riding offers a serene escape where gentle horses move gracefully along sandy shores and coastal trails. With ocean breezes and open horizons, the experience blends nature, calm adventure, and the timeless romance of riding by the sea.",
+      img: hero1.src,
+      link: "/EastTourPkg5",
+      Places: ["Legasea Horse Riding"],
+    },
+    {
+      title: "Package 6: East Tour 6",
+      desc: "A boat trip to visit the Five Islands and the Grand River South East Waterfall is a journey through Mauritius’ most scenic waters. Cruising past emerald islets and calm lagoons before reaching the cascading waterfall, the experience blends tropical beauty, gentle adventure, and unforgettable island views.",
+      img: hero1.src,
+      link: "/EastTourPkg6",
+      Places: ["Grand River South East Waterfall"],
+    },
+    {
+      title: "Package 7: East Tour 7",
+      desc: "Saint Aubin Vanilla Plantation, set in the fertile south of Mauritius, delights with fragrant vines and lush tropical surroundings. Showcasing traditional cultivation and rich aromas, it reveals the island’s agricultural heritage and the delicate beauty of natural vanilla.",
+      img: hero1.src,
+      link: "/EastTourPkg7",
+      Places: ["Saint Aubin Vanilla Plantation"],
+    },
+    {
+      title: "Package 8: East Tour 8",
+      desc: "Experience the thrill of horse riding along Mauritius’ scenic east coast beaches. Enjoy peaceful rides by the turquoise lagoon or through lush coastal trails — a perfect blend of adventure and tranquility.",
+      img: hero1.src,
+      link: "/EastTourPkg8",
+      Places: ["Horse Riding", "Flacq Centeral Market", "Coeur De Ville"],
+    },
+    {
+      title: "Package 9: East Tour 9",
+      desc: "Super U Flacq, a popular shopping stop in eastern Mauritius, offers a lively mix of local products, fresh foods, and international brands. With its vibrant atmosphere and wide variety, it reflects everyday island life and convenient modern shopping.",
+      img: hero1.src,
+      link: "/EastTourPkg9",
+      Places: ["Super U Flacq"],
+    },
+    {
+      title: "Package 10: East Tour 10",
+      desc: "Bras d’Eau National Park, tucked away in the northeast of Mauritius, offers a peaceful escape with forest trails, native trees, and quiet wildlife. Blending coastal breezes with woodland calm, it reflects the island’s untouched nature and serene outdoor beauty.",
+      img: hero1.src,
+      link: "/EastTourPkg10",
+      Places: ["Bras d’Eau National Park"],
+    },
+    {
+      title: "Package 11: East Tour 11",
+      desc: "Beaches on the east coast of Mauritius are known for their crystal-clear lagoons, soft white sand, and peaceful atmosphere. Bathed in gentle sunlight and cooled by ocean breezes, they offer a perfect setting for relaxation, scenic walks, and enjoying the island’s natural coastal beauty.",
+      img: hero1.src,
+      link: "/EastTourPkg11",
+      Places: ["Beaches on the east coast"],
+    },
+    {
+      title: "Package 12: East Tour 12",
+      desc: "Flacq Market, a modern shopping hub in eastern Mauritius, blends convenience with a relaxed island vibe. With popular brands, cafés, and entertainment under one roof, it offers a comfortable spot to shop, dine, and unwind",
+      img: hero1.src,
+      link: "/EastTourPkg12",
+      Places: ["Flacq Market"],
+    },
+    
+    
   ].map((card, idx) => (
     <article
       key={idx}

@@ -56,7 +56,7 @@ export default function HomePage() {
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300"><T>Package 2</T></h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300"><T>Package 4</T></h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
         <T>Dreamy Mauritius</T>
       </h1>

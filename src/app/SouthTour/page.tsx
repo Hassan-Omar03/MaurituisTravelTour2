@@ -140,6 +140,70 @@ export default function HomePage() {
       link: "/SouthTourPkg3",
       places: ["Gris Gris Angry Area", "Crocodile Park", "Marine Park"],
     },
+    {
+      title: "Package 4: South Tour 4",
+      desc: "La Vallée des Couleurs Nature Park, nestled in the lush south of Mauritius, enchants visitors with rolling hills, vibrant earth tones, and winding adventure trails. Surrounded by waterfalls and forests, it blends natural beauty with thrilling experiences, capturing the island’s adventurous and colorful spirit.",
+      img: hero1.src,
+      link: "/SouthTourPkg4",
+      places: ["La Valley Nature Park"],
+    },
+    {
+      title: "Package 5: South Tour 5",
+      desc: "Bois Chéri Tea Factory, set amid the cool green hills of southern Mauritius, charms visitors with endless tea plantations and soothing aromas. Overlooking a serene lake, it reveals the island’s tea heritage and peaceful countryside, offering a calm and refreshing escape.",
+      img: hero1.src,
+      link: "/SouthTourPkg5",
+      places: ["Bois Cheri Tea Factory"],
+    },
+    {
+      title: "Package 6: South Tour 6",
+      desc: "Grand Bassin (Ganga Talao), nestled in the misty highlands of Mauritius, inspires serenity with its sacred waters and towering statues. Revered by pilgrims and surrounded by quiet forests, it reflects deep spirituality and cultural heritage, offering a peaceful and soulful retreat.",
+      img: hero1.src,
+      link: "/SouthTourPkg6",
+      places: ["Grand Bassin Ganga Talao"],
+    },
+    {
+      title: "Package 7: South Tour 7",
+      desc: "Alexandra Falls, hidden within the lush Black River Gorges region, mesmerizes with cascading waters and sweeping valley views. Surrounded by dense greenery and cool mountain air, it captures Mauritius’ tranquil beauty and refreshing natural charm.",
+      img: hero1.src,
+      link: "/SouthTourPkg7",
+      places: ["Alexandra Falls"],
+    },
+    {
+      title: "Package 8: South Tour 8",
+      desc: "Black River Gorges Viewpoint, perched above deep green valleys, offers breathtaking panoramas of forests, rivers, and distant peaks. Wrapped in cool air and untouched wilderness, it showcases Mauritius’ richest natural landscapes and serene highland beauty.",
+      img: hero1.src,
+      link: "/SouthTourPkg8",
+      places: ["Black River Gorges Viewpoint"],
+    },
+    {
+      title: "Package 9: South Tour 9",
+      desc: "Curious Corner of Chamarel, tucked away in the scenic south-west of Mauritius, delights visitors with mind-bending illusions and playful exhibits. Blending creativity, science, and fun, it challenges perception and sparks curiosity, offering a light-hearted and unforgettable experience.",
+      img: hero1.src,
+      link: "/SouthTourPkg9",
+      places: ["Curious Corner of Chamarel"],
+    },
+    {
+      title: "Package 10: South Tour 10",
+      desc: "Chamarel Waterfall, plunging dramatically through lush greenery, captivates with its powerful cascade and misty depths. Set within a verdant valley, it reflects the raw natural beauty and serene charm of Mauritius’ southwest.",
+      img: hero1.src,
+      link: "/SouthTourPkg10",
+      places: ["Chamarel Waterfall"],
+    },
+    {
+      title: "Package 11: South Tour 11",
+      desc: "Chamarel Seven Coloured Earth, a rare natural wonder in southwest Mauritius, amazes with rolling dunes of naturally layered hues. Formed by volcanic activity and untouched by time, it showcases the island’s unique geology and vibrant natural beauty.",
+      img: hero1.src,
+      link: "/SouthTourPkg11",
+      places: ["Chamarel Seven Coloured Earth"],
+    },
+    {
+      title: "Package 12: South Tour 12",
+      desc: "Set along Mauritius’ shoreline, the coastal sea view enchants with endless horizons, gentle breezes, and shifting shades of blue. Where sky meets ocean, it captures the island’s relaxed rhythm and timeless beauty, offering moments of calm and quiet reflection.",
+      img: hero1.src,
+      link: "/SouthTourPkg12",
+      places: ["Coastal Sea View"],
+    },
+    
   ].map((card, idx) => (
     <article
       key={idx}

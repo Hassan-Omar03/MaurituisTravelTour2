@@ -6,12 +6,18 @@ import Image from "next/image";
 import hero3 from "../../Assests/hero3.png";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import Link from "next/link";
 import Join from "../Components/Join";
-import { T } from "@/lib/i18n-global";
 
 export default function HomePage() {
+  
 
+  // NEW: about expand state (for Read More)
   const [aboutOpen, setAboutOpen] = useState(false);
+
+  // Prevent background scroll when mobile menu open
+  
+  // NEW: IntersectionObserver to reveal sections on scroll
   useEffect(() => {
     const els = document.querySelectorAll<HTMLElement>("[data-animate]");
     const io = new IntersectionObserver(
@@ -27,13 +33,13 @@ export default function HomePage() {
   }, []);
 
   return (
-    <main className=" bg-[#082733] text-[#0d1b1e]">
-      <Navbar />
+    <main className="bg-[#082733] text-[#0d1b1e]">
+     <Navbar />
       <section id="home" className="relative h-[100vh] min-h-[560px] max-h-[940px] overflow-hidden">
         <Image src={hero3} alt="Mauritius aerial" fill priority className="object-cover absolute z-0" />
         <div className="relative z-10 flex w-[90%] max-w-[1300px] mx-auto items-end justify-center h-full">
           <div className="flex justify-center items-center flex-wrap gap-8 mb-24" >
-          <h1 className="md:text-6xl text-4xl text-white"><T>Refresh Your Soul with</T> <br /> <T>Exclusive North Tours</T> </h1>
+          <h1 className="md:text-6xl text-4xl text-white">Refresh Your Soul with <br /> Exclusive East Tours </h1>
           <a
   href="https://wa.me/23057526968?text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours."
   target="_blank"
@@ -50,23 +56,21 @@ export default function HomePage() {
       </section>
 
       {/* About — exact layout: left small image, right text */}
- 
+  
 <div className="bg-white">
   <section className="relative bg-[#062E3D] text-white overflow-hidden rounded-b-[500px]">
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300"><T>Package 8</T></h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 1</h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
-        <T>Dreamy Mauritius</T>
+        Dreamy Mauritius
       </h1>
-      <p className="text-4xl md:text-5xl  mb-8 text-teal-300"><T>As from Rs 3000 per trip</T></p>
+      <p className="text-4xl md:text-5xl  mb-8 text-teal-300">As from Rs 3000 per trip</p>
 
       {/* Intro */}
       <p className="text-white mb-12">
-         <T>
-                      At Mauritius Travel & Tour, we’re dedicated to providing service that exceeds expectations — blending safety, comfort, and spotless cleanliness to make every journey both dependable and delightful.
-                    </T>
+        At Mauritius Travel & Tour, we’re dedicated to providing service that exceeds expectations — blending safety, comfort, and spotless cleanliness to make every journey both dependable and delightful.
       </p>
 
       {/* Info Boxes */}
@@ -76,21 +80,18 @@ export default function HomePage() {
   <div className="bg-gray-500/80 ring-1 ring-white/30 backdrop-blur-sm rounded-2xl sm:p-6 p-2 text-left shadow-md w-full max-w-[520px] mx-auto">
     <div className="text-center">
       <h3 className="inline-block bg-teal-400 text-[#062E3D] text-sm md:text-base font-semibold px-6 py-2 rounded-full mb-5 shadow-md hover:bg-teal-300 transition">
-        <T>PLACES TO VISIT</T>
+        PLACES TO VISIT
       </h3>
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Showcases plants brought to Maurituis during Colonial period. </li>
-    <li>Palm Tree Collection.</li>
-    <li>Spice Garden.</li>
-    <li>Giant tortise and deers.</li>
-    <li>Historical monuments .</li>
-    <li>Exotic bird species.</li>
-    <li>Historical monuments .</li>
-    
-    
-    
+      <li>• Lush green forest and nature park.</li>
+      <li>• Walking and hiking trails.</li>
+      <li>• Picnic and relaxation areas.</li>
+      <li>• Rich birdlife and wildlife.</li>
+      <li>• Peaceful and calm atmosphere.</li>
+      <li>• Ideal place for nature lovers.</li>
+      
     </ul>
   </div>
 
@@ -98,15 +99,15 @@ export default function HomePage() {
   <div className="bg-gray-500/80 ring-1 ring-white/30 backdrop-blur-sm rounded-2xl sm:p-6 p-2 text-left shadow-md w-full max-w-[520px] mx-auto">
     <div className="text-center">
       <h3 className="inline-block bg-teal-400 text-[#062E3D] text-sm md:text-base font-semibold px-6 py-2 rounded-full mb-5 shadow-md hover:bg-teal-300 transition">
-        <T>TOUR DESCRIPTION</T>
+        TOUR DESCRIPTION
       </h3>
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+      <li>• Tour Availability: Available Daily</li>
+      <li>• Tour Duration: 8 Hours (Full Day)</li>
+      <li>• With flexible Pick-Up times, you can begin your adventure anytime between 8:30 AM and 10:00 AM.</li>
+      <li>• Complimentary Wi-Fi provided in the vehicle</li>
     </ul>
   </div>
 </div>
@@ -117,33 +118,34 @@ export default function HomePage() {
   <div className="text-center">
     <h3 className="inline-block bg-teal-400 text-[#062E3D] text-sm md:text-base font-semibold 
                    px-6 py-2 rounded-full mb-5 shadow-md hover:bg-teal-300 transition">
-      <T>ADDITIONAL DETAILS</T>
+      ADDITIONAL DETAILS
     </h3>
   </div>
 
   <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
     <li>• Payment can be made directly to the driver in MUR, USD, or EUR.</li>
-    <li>• Pricing is per vehicle, not per person.</li>
-    <li>• Includes full-day private transportation to all mentioned attractions.</li>
-    <li>• A professional English- or French-speaking driver will share insights throughout your journey.</li>
-    <li>• Entry ticket fees are not included.</li>
-    <li>• For lunch, your driver will suggest top-rated local restaurants so you can enjoy authentic Mauritian flavors.</li>
-    <li>• <b>Custom combinations are available — speak with your driver if you wish to merge two packages.</b></li>
-    <li>• <b>NOTE: 15-seater and 30-seater vehicles available upon request.</b></li>
+    <li>• Prices are charged per vehicle, not per person.</li>
+    <li>• Full-day transportation to all the listed attractions.</li>
+    <li>• Your English/French-speaking driver will share insights and helpful information throughout the trip.</li>
+    <li>• Entry tickets are not included in the package.</li>
+    <li>• For lunch, your driver will recommend the best local restaurants so you can enjoy authentic Mauritian dishes.</li>
+    <li>• <b>Special arrangements can be made with your driver if you wish to combine two tour packages.</b></li>
+    <li>• <b>NOTE: 15-seater and 30-seater vehicles available.</b></li>
   </ul>
 </div>
 
     </div>
-  </section>
- {/* === Existing Attractions Section (your current code) === */}
+ </section>
+
+{/* === Existing Attractions Section (your current code) === */}
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/garden.png",
-      title: "Pamplemousses Botanical Garden",
-      desc: "Pamplemousses Botanical Garden is a serene natural sanctuary celebrated for its lush greenery and rare plant species. Stroll through shaded pathways, admire giant water lilies and ancient trees, and experience the calm beauty of one of Mauritius’s most iconic gardens.",
+      img: "/BdEloop.jpg",
+      title: "Bras d’Eau National Park",
+      desc: "Bras d’Eau National Park, a stunning natural reserve in eastern Mauritius, offers a unique blend of pristine beaches, lush forests, and diverse wildlife. With its crystal-clear lagoons and scenic trails, it provides an unforgettable experience for nature lovers and adventure seekers.",
     },
-   
+    
   ].map((item, idx) => (
     <article
       key={idx}
@@ -173,10 +175,8 @@ export default function HomePage() {
 
 
 </div>
-<Join />
-
-
-    <Footer/>
+<Join/>
+<Footer/>
 
       {/* responsive + animation tweaks */}
       <style>{`

@@ -137,6 +137,70 @@ export default function HomePage() {
       link: "/WestTourPkg2",
       Places: ["Casela Nature And Leisure Park"],
     },
+    {
+      title: "Package 3: West Tour 3",
+      desc: "Casela Nature Parks is a vibrant adventure and wildlife park set against the scenic landscapes of western Mauritius. Surrounded by mountains and open plains, it offers close encounters with exotic animals along with thrilling activities like safaris, ziplining, and interactive experiences. Blending nature, excitement, and family-friendly fun, Casela captures the adventurous spirit and natural beauty of the island.",
+      img: hero1.src,
+      link: "/WestTourPkg3",
+      Places: ["Casela Nature Park"],
+    },
+    {
+      title: "Package 4: West Tour 4",
+      desc: "Dolphin and Whale Watching in Mauritius offers an unforgettable encounter with ocean life in the island’s deep blue waters. Guided boat excursions reveal playful dolphins and majestic whales in their natural habitat, blending adventure, respect for nature, and the breathtaking beauty of the Indian Ocean.",
+      img: hero1.src,
+      link: "/WestTourPkg4",
+      Places: ["Dolphin and Whale Watching"],
+    },
+    {
+      title: "Package 5: West Tour 5",
+      desc: "Île aux Bénitiers and Crystal Rock offer a picture-perfect escape in the southwest lagoon of Mauritius. Surrounded by shallow turquoise waters and dramatic mountain backdrops, this serene island trip blends natural beauty, crystal-clear seas, and relaxed island vibes, making it one of the most scenic experiences on the coast.",
+      img: hero1.src,
+      link: "/WestTourPkg5",
+      Places: ["Île aux Bénitiers and Crystal Rock"],
+    },
+    {
+      title: "Package 6: West Tour 6",
+      desc: "Seaplane at La Prairie Lagoon offers a breathtaking aerial view of Mauritius’ turquoise lagoons and dramatic coastline. Taking off and landing on calm waters, the experience combines thrill and elegance, revealing coral reefs, sandbanks, and mountain backdrops from a truly unique perspective.",
+      img: hero1.src,
+      link: "/WestTourPkg6",
+      Places: ["Seaplane at La Prairie Lagoon"],
+    },
+    {
+      title: "Package 7: West Tour 7",
+      desc: "Le Morne Brabant hiking is a rewarding adventure that leads through lush trails to breathtaking panoramic views. Rising above the southwest coast, this UNESCO World Heritage mountain blends natural beauty, history, and challenge, offering sweeping vistas of turquoise lagoons and the open Indian Ocean.",
+      img: hero1.src,
+      link: "/WestTourPkg7",
+      Places: ["Le Morne Brabant"],
+    },
+    {
+      title: "Package 8: West Tour 8",
+      desc: "Tamarind Falls, also known as the Seven Cascades, is a hidden natural treasure set deep within lush forests and rugged valleys. This breathtaking site reveals a series of cascading waterfalls, natural pools, and dramatic landscapes, offering a true sense of adventure and untouched beauty in the heart of Mauritius.",
+      img: hero1.src,
+      link: "/WestTourPkg2",
+      Places: ["Casela Nature And Leisure Park"],
+    },
+    {
+      title: "Package 9: West Tour 9",
+      desc: "Rivière des Galets is a scenic and adventurous river trail surrounded by dramatic cliffs, lush greenery, and flowing fresh water. Known for its natural rock formations and wild beauty, it offers an off-the-beaten-path experience that showcases Mauritius in its raw and untouched form.",
+      img: hero1.src,
+      link: "/WestTourPkg9",
+      Places: ["Rivière des Galets"],
+    },
+    {
+      title: "Package 10: West Tour 10",
+      desc: "Crocodile Park, located in the lush south of Mauritius, is famous for its giant crocodiles and rich wildlife. Set within a tropical reserve, the park blends conservation, education, and adventure, offering close encounters with reptiles, animals, and endemic species in a natural setting.",
+      img: hero1.src,
+      link: "/WestTourPkg10",
+      Places: ["Crocodile Park"],
+    },
+    {
+      title: "Package 11: West Tour 11",
+      desc: "Gris Gris Beach, located on the rugged southern coast of Mauritius, stands out for its dramatic cliffs and powerful waves. Unlike most beaches on the island, it has no coral reef, allowing the Indian Ocean to crash freely against the shore, revealing a raw, wild, and strikingly beautiful seascape.",
+      img: hero1.src,
+      link: "/WestTourPkg11",
+      Places: ["Gris Gris Beach"],
+    },
+    
   ].map((card, idx) => (
     <article
       key={idx}

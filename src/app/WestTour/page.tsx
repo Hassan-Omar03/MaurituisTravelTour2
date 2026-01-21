@@ -121,7 +121,7 @@ export default function HomePage() {
           </div>
 
           {/* cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 sm:px-8 lg:px-16 xl:px-24 py-12 bg-white max-w-[1400px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-12 bg-white w-full max-w-[1400px] mx-auto overflow-hidden">
   {[
     {
       title: "Package 1: West Tour 1",
@@ -139,7 +139,7 @@ export default function HomePage() {
     },
     {
       title: "Package 3: West Tour 3",
-      desc: "Casela Nature Parks is a vibrant adventure and wildlife park set against the scenic landscapes of western Mauritius. Surrounded by mountains and open plains, it offers close encounters with exotic animals along with thrilling activities like safaris, ziplining, and interactive experiences. Blending nature, excitement, and family-friendly fun, Casela captures the adventurous spirit and natural beauty of the island.",
+      desc: "Casela Nature Parks is a vibrant adventure and wildlife park set against the scenic landscapes of western Mauritius. Surrounded by mountains and open plains, it offers close encounters with exotic animals along with thrilling activities like .",
       img: hero1.src,
       link: "/WestTourPkg3",
       Places: ["Casela Nature Park"],
@@ -202,82 +202,94 @@ export default function HomePage() {
     },
     
   ].map((card, idx) => (
-    <article
-      key={idx}
-      className="relative w-full max-w-[480px] h-[620px] rounded-[22px] overflow-hidden ring-4 ring-gray-300"
-      style={{
-        backgroundImage: `url(${card.img})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      {/* subtle top-to-bottom gradient overlay for better contrast */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/25 to-transparent" />
+  <article
+  key={idx}
+  className="relative w-full h-[580px] sm:h-[600px] rounded-[22px] overflow-hidden ring-4 ring-gray-300 flex flex-col"
+  style={{
+    backgroundImage: `url(${card.img})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* gradient overlay */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/25 to-transparent" />
 
-      <div className="relative z-[1] px-6 pb-6 flex flex-col justify-end h-full text-white">
-        <h3 className="m-0 text-[20px] tracking-[.08em] font-semibold text-white/95">
-          {card.title}
-        </h3>
+  <div className="relative z-[1] px-5 pb-6 flex flex-col justify-end h-full text-white text-center">
+    {/* TITLE */}
+    <h3 className="m-0 text-[18px] md:text-[20px] font-semibold text-white/95">
+      <T>{card.title}</T>
+    </h3>
 
-        <p className="mt-1 text-[15px] leading-5 text-white/90 max-w-[62ch]">{card.desc}</p>
+    {/* DESCRIPTION */}
+    <p className="mt-1 text-[14px] md:text-[15px] leading-5 text-white/90">
+      <T>{card.desc}</T>
+    </p>
 
-        <div className="mt-4 flex justify-center items-center gap-4 flex-wrap">
-          {[
-            {
-              icon: money,
-              text: (
-                <>
-                  Pricing - <br />as from Rs 3000
-                </>
-              ),
-            },
-            {
-              icon: group,
-              text: (
-                <>
-                  Travel Members <br />1–4 persons
-                </>
-              ),
-            },
-            {
-              icon: timing,
-              text: (
-                <>
-                  Approximate Timing - 8 hrs
-                </>
-              ),
-            },
-          ].map((item, i) => (
-            <div
-              key={i}
-              className="flex flex-col items-center justify-center gap-2 w-[100px] h-[100px]
-                rounded-[18px] bg-white/25 ring-1 ring-white/35 backdrop-blur-[2px] text-center"
-            >
-              <Image src={item.icon} alt="" width={26} height={26} className="opacity-95" />
-              <span className="text-[12px] leading-tight">{item.text}</span>
-            </div>
-          ))}
+    {/* INFO BOXES */}
+    <div className="mt-4 flex justify-center items-center gap-2 sm:gap-4 flex-nowrap">
+      {[
+        {
+          icon: money,
+          text: (
+            <>
+              Pricing <br />as from Rs 3000
+            </>
+          ),
+        },
+        {
+          icon: group,
+          text: (
+            <>
+              Travel Members <br />1–4 persons
+            </>
+          ),
+        },
+        {
+          icon: timing,
+          text: (
+            <>
+              Approximate Timing <br />8 hrs
+            </>
+          ),
+        },
+      ].map((item, i) => (
+        <div
+          key={i}
+          className="flex flex-col items-center justify-center gap-1
+          w-[80px] h-[80px] sm:w-[100px] sm:h-[100px]
+          rounded-[18px] bg-white/25 ring-1 ring-white/35 backdrop-blur-[2px] text-center"
+        >
+          <Image src={item.icon} alt="" width={26} height={26} className="opacity-95" />
+          <span className="text-[11px] sm:text-[12px] leading-tight">
+            {item.text}
+          </span>
         </div>
+      ))}
+    </div>
 
-        <div className="mt-4 flex justify-center">
-          <Link
-            href={card.link}
-            className="inline-flex items-center justify-center text-center rounded-full px-6 py-3 text-[14px]
-              bg-[#11c6c1] text-[#073436] font-medium shadow-[0_8px_24px_rgba(0,0,0,.25)] hover:bg-[#0fb0ad] transition"
-          >
-            Get Details &amp; Pricing
-          </Link>
-        </div>
+    {/* BUTTON */}
+    <div className="mt-4 flex justify-center">
+      <Link
+        href={card.link}
+        className="inline-flex items-center justify-center rounded-full px-6 py-3
+        text-[13px] sm:text-[14px]
+        bg-[#11c6c1] text-[#073436] font-medium
+        shadow-[0_8px_24px_rgba(0,0,0,.25)]
+        hover:bg-[#0fb0ad] transition"
+      >
+        Get Details &amp; Pricing
+      </Link>
+    </div>
 
-       
-             <div className="mt-3 text-[10px] text-center text-white/85">
-         {Array.isArray(card.Places) && card.Places.length
-           ? card.Places.join(" | ")
-           : <T>place | place | place</T>}
-       </div>
-       
-      </div>
-    </article>
+    {/* PLACES */}
+    <div className="mt-3 text-[10px] text-center text-white/85">
+      {Array.isArray(card.Places) && card.Places.length
+        ? card.Places.join(" | ")
+        : <T>place | place | place</T>}
+    </div>
+  </div>
+</article>
+
   ))}
 </div>
 

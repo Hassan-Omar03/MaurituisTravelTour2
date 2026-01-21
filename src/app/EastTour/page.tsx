@@ -85,7 +85,7 @@ export default function HomePage() {
             </div>
 
             {/* pills right */}
-            <div className="lex flex-col items-center md:pt-1">
+            <div className="flex flex-col items-center md:pt-1">
               <h3 className="text-[#0e4f53] text-[24px] font-medium mb-3 text-center">
                 <T>Our Awesome Services</T>
               </h3>
@@ -326,6 +326,14 @@ export default function HomePage() {
         @media (max-width: 780px){
           .brand strong{ display: none; }
         }
+          /* 🔥 CRITICAL FIX: mobile IntersectionObserver bug */
+@media (max-width: 768px), (max-height: 700px) {
+  [data-animate="fade"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
       `}</style>
     </main>
   );

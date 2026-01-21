@@ -298,6 +298,14 @@ export default function HomePage() {
         @media (max-width: 780px){
           .brand strong{ display: none; }
         }
+          /* 🔥 CRITICAL FIX: mobile IntersectionObserver bug */
+@media (max-width: 768px), (max-height: 700px) {
+  [data-animate="fade"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
       `}</style>
     </main>
   );

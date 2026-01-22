@@ -85,12 +85,12 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-      <li>• Bluebay.</li>
-      <li>• Palmar.</li>
-      <li>• Trou deau dance.</li>
-      <li>• Belle mare.</li>
-      <li>• Postelafayette.</li>
-      <li>• Ideal place for nature lovers.</li>
+      <li>• One of the largest open-air markets in Mauritius.</li>
+      <li>• Famous for fresh fruits and vegetables.</li>
+      <li>• Variety of local street food and snacks.</li>
+      <li>• Spices, clothes, and handmade items.</li>
+     <li>• Experience real local culture and lifestyle.</li>
+      
       
     </ul>
   </div>
@@ -141,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/three.jpeg",
-      title: "Beaches on the east coast",
-      desc: "Beaches on the east coast of Mauritius enchant with powder-soft white sand, calm turquoise lagoons, and gentle ocean breezes. Fringed by palm trees and glowing under the morning sun, they offer a perfect blend of relaxation and natural beauty, capturing the island’s most tranquil seaside charm.",
+      img: "/B.jpg",
+      title: "Flacq Market",
+      desc: "Flacq Market, alive with colors, aromas, and local voices, offers an authentic glimpse into everyday Mauritian life. From fresh fruits and spices to handmade goods, the bustling stalls reflect the island’s culture, warmth, and vibrant community spirit.",
     },
     
   ].map((item, idx) => (

@@ -85,13 +85,13 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-      <li>• Vanilla tasting and shop</li>
-        <li>• Visit the Saint Aubin vanilla plantation.</li>
-        <li>• Explore the plantation and learn about vanilla cultivation.</li>
-        <li>• Enjoy the fragrant aroma of vanilla orchids.</li>
-        <li>• Discover the traditional methods of vanilla processing.</li>
-        <li>• Scenic views of the surrounding lush landscapes.</li>
-        <li>• Opportunity to purchase fresh vanilla products.</li>
+      <li>• Mall Super Marker and food court</li>
+      <li>• Flacq central market</li>
+      <li>• Wide range of groceries and daily essentials.</li>
+      <li>• Fresh fruits, vegetables, and local produce.</li>
+      <li>• Shopping for local and imported products.</li>
+      <li>• Located near Flacq town.</li>
+      <li>• Easy access to Flacq Central Market.</li>
     </ul>
   </div>
 
@@ -141,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/maurice.jpg",
-      title: "Saint Aubin Vanilla Plantation",
-      desc: "Saint Aubin Vanilla Plantation, set in the fertile south of Mauritius, delights with fragrant vines and lush tropical surroundings. Showcasing traditional cultivation and rich aromas, it reveals the island’s agricultural heritage and the delicate beauty of natural vanilla.",
+      img: "/flacq1.jpg",
+      title: "Super U Flacq",
+      desc: "Super U Flacq, a popular shopping stop in eastern Mauritius, offers a lively mix of local products, fresh foods, and international brands. With its vibrant atmosphere and wide variety, it reflects everyday island life and convenient modern shopping.",
     },
     
   ].map((item, idx) => (

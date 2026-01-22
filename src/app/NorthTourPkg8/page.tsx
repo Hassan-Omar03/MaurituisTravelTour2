@@ -81,13 +81,11 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Showcases plants brought to Maurituis during Colonial period. </li>
-    <li>Palm Tree Collection.</li>
-    <li>Spice Garden.</li>
-    <li>Giant tortise and deers.</li>
-    <li>Historical monuments .</li>
-    <li>Exotic bird species.</li>
-    <li>Historical monuments .</li>
+    <li>• Origanlly a Colonialmansion and Sugar estate and presence as a herritage building . </li>
+    <li>• Rum and liquer distillery.</li>
+    <li>• Sugarcane fields surrounding the estate. </li>
+    <li>• Beautiful architecture and historical  artifacts .</li>
+    <li>• Learn about the history of sugar production in Mauritius.</li>
     
     
     
@@ -103,10 +101,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+    <li>• Tour Availability: Operates Daily.</li>
+    <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
+    <li>• Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
+    <li>• Free Wi-Fi available in the vehicle.</li>
     </ul>
   </div>
 </div>
@@ -139,9 +137,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/garden.png",
-      title: "Pamplemousses Botanical Garden",
-      desc: "Pamplemousses Botanical Garden is a serene natural sanctuary celebrated for its lush greenery and rare plant species. Stroll through shaded pathways, admire giant water lilies and ancient trees, and experience the calm beauty of one of Mauritius’s most iconic gardens.",
+      img: "/bg.png",
+      title: "Château de Labourdonnais",
+      desc: "Château de Labourdonnais is an elegant colonial estate reflecting Mauritius’s rich history and refinement. Explore its beautifully restored mansion, manicured gardens, and surrounding orchards, offering a graceful glimpse into island heritage and timeless charm.",
     },
    
   ].map((item, idx) => (

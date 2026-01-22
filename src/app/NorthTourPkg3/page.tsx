@@ -84,10 +84,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-<li><T>Panoramic View of Capital City </T></li>
-<li><T>Historical Landmark build between 1834 and 1840 by British colonialists Govt named after Queen Adelaide </T></li>
-<li><T>Explore the vibrant market atmosphere, local crafts, and fresh produce.</T> </li>
-<li><T>Discover the rich heritage and stunning architecture of this iconic church.</T> </li>
+<li><T>• Panoramic View of Capital City </T></li>
+<li><T>• Historical Landmark build between 1834 and 1840 by British colonialists Govt named after Queen Adelaide </T></li>
+<li><T>• Explore the vibrant market atmosphere, local crafts, and fresh produce.</T> </li>
+<li><T>• Discover the rich heritage and stunning architecture of this iconic church.</T> </li>
 
 
     </ul>
@@ -102,10 +102,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-<li><T>Tour Availability: Every single day</T></li>
-<li> <T>Tour Duration: Around 8 Hours (Full Day)</T></li>
-<li><T>With our flexible Pick-Up hours you can start your trip anytime between 8:30 Am and 10:00 Am</T></li>
-<li><T>Free Wi-Fi connection available inside Vehicle</T></li>
+<li><T>• Tour Availability: Every single day</T></li>
+<li> <T>• Tour Duration: Around 8 Hours (Full Day)</T></li>
+<li><T>• With our flexible Pick-Up hours you can start your trip anytime between 8:30 Am and 10:00 Am</T></li>
+<li><T>• Free Wi-Fi connection available inside Vehicle</T></li>
     </ul>
   </div>
 </div>

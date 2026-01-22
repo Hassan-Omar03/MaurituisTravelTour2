@@ -81,14 +81,14 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Situated along Port Louis Harbour.</li>
-    <li>Shopping & Restaurants.</li>
-    <li>Museum (Blue Penny Art Gallery and Craft Market).</li>
-    <li>Beach (Palm Beach & La Perle Beach).</li>
-      <li>Historic Aapravasi Ghat.</li>
-      <li>Central Market.</li>
-      <li>Caudan Waterfront.</li>
-      <li>Marine Aquarium.</li>
+    <li>• Situated along Port Louis Harbour.</li>
+    <li>• Shopping & Restaurants.</li>
+    <li>• Museum (Blue Penny Art Gallery and Craft Market).</li>
+    <li>• Beach (Palm Beach & La Perle Beach).</li>
+      <li>• Historic Aapravasi Ghat.</li>
+      <li>• Central Market.</li>
+      <li>• Caudan Waterfront.</li>
+      <li>• Marine Aquarium.</li>
       
     </ul>
   </div>
@@ -102,10 +102,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+    <li>• Tour Availability: Operates Daily.</li>
+    <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
+    <li>• Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
+    <li>• Free Wi-Fi available in the vehicle.</li>
     </ul>
   </div>
 </div>

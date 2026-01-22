@@ -85,11 +85,11 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-      <li>• Lush green forest and nature park.</li>
-      <li>• Walking and hiking trails.</li>
-      <li>• Picnic and relaxation areas.</li>
-      <li>• Rich birdlife and wildlife.</li>
-      <li>• Peaceful and calm atmosphere.</li>
+      <li>• Bluebay.</li>
+      <li>• Palmar.</li>
+      <li>• Trou deau dance.</li>
+      <li>• Belle mare.</li>
+      <li>• Postelafayette.</li>
       <li>• Ideal place for nature lovers.</li>
       
     </ul>
@@ -141,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/BdEloop.jpg",
-      title: "Bras d’Eau National Park",
-      desc: "Bras d’Eau National Park, a stunning natural reserve in eastern Mauritius, offers a unique blend of pristine beaches, lush forests, and diverse wildlife. With its crystal-clear lagoons and scenic trails, it provides an unforgettable experience for nature lovers and adventure seekers.",
+      img: "/three.jpeg",
+      title: "Beaches on the east coast",
+      desc: "Beaches on the east coast of Mauritius enchant with powder-soft white sand, calm turquoise lagoons, and gentle ocean breezes. Fringed by palm trees and glowing under the morning sun, they offer a perfect blend of relaxation and natural beauty, capturing the island’s most tranquil seaside charm.",
     },
     
   ].map((item, idx) => (

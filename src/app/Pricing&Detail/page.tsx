@@ -84,13 +84,13 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-<li><T>Pick-up from any resort or residence in the morning</T></li>
-<li><T>Explore the famous Pamplemousses Botanical Garden</T></li>
-<li><T>Discover the fascinating Aventure du Sucre Museum</T></li>
-<li><T>Shop and wander around Grand Baie Bazar</T></li>
-<li><T>Enjoy Sea Turtle spotting at Trou aux Biches Beach</T></li>
-<li><T>Admire the Red Church located at Cap Malheureux</T></li>
-<li><T>Return and drop-off at your hotel or residence</T></li>
+<li><T>• Pick-up from any resort or residence in the morning</T></li>
+<li><T>• Explore the famous Pamplemousses Botanical Garden</T></li>
+<li><T>• Discover the fascinating Aventure du Sucre Museum</T></li>
+<li><T>• Shop and wander around Grand Baie Bazar</T></li>
+<li><T>• Enjoy Sea Turtle spotting at Trou aux Biches Beach</T></li>
+<li><T>• Admire the Red Church located at Cap Malheureux</T></li>
+<li><T>• Return and drop-off at your hotel or residence</T></li>
     </ul>
   </div>
 

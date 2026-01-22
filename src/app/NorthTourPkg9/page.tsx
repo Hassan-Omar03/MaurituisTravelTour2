@@ -81,12 +81,16 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Origanlly a Colonialmansion and Sugar estate and presence as a herritage building . </li>
-    <li>Rum and liquer distillery.</li>
-    <li>Sugarcane fields surrounding the estate. </li>
-    <li>Beautiful architecture and historical  artifacts .</li>
-    <li>Learn about the history of sugar production in Mauritius.</li>
-    
+    <li>• Sumbarine Adventure. </li>
+    <li>• Colorfull coroll gardens.</li>
+    <li>• Tropical fish species. </li>
+    <li>• Historic shipwork.</li>
+    <li>• Subscotter ride (30 mins).</li>
+    <li>• Glass bottom boat ride (30 mins).</li>
+    <li>• Underwater sea walk (30 mins).</li>
+        <li>• Dolphin watching (30 mins).</li>
+        <li>• Snorkeling (30 mins). </li>
+        
     
     
     </ul>
@@ -101,10 +105,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+    <li>• Tour Availability: Operates Daily.</li>
+    <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
+    <li>• Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
+    <li>• Free Wi-Fi available in the vehicle.</li>
     </ul>
   </div>
 </div>
@@ -137,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/bg.png",
-      title: "Château de Labourdonnais",
-      desc: "Château de Labourdonnais is an elegant colonial estate reflecting Mauritius’s rich history and refinement. Explore its beautifully restored mansion, manicured gardens, and surrounding orchards, offering a graceful glimpse into island heritage and timeless charm.",
+      img: "/safari.png",
+      title: "Blue Safari",
+      desc: "Blue Safari is an exciting underwater adventure offering a unique view of Mauritius’s marine life. Glide beneath the ocean’s surface in a submarine-style vessel and discover colorful coral reefs, tropical fish, and the beauty of the deep in a thrilling, immersive experience.",
     },
    
   ].map((item, idx) => (

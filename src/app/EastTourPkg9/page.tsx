@@ -85,13 +85,13 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-      <li>• Mall Super Marker and food court</li>
-      <li>• Flacq central market</li>
-      <li>• Wide range of groceries and daily essentials.</li>
-      <li>• Fresh fruits, vegetables, and local produce.</li>
-      <li>• Shopping for local and imported products.</li>
-      <li>• Located near Flacq town.</li>
-      <li>• Easy access to Flacq Central Market.</li>
+      <li>• Lush green forest and nature park.</li>
+      <li>• Walking and hiking trails.</li>
+      <li>• Picnic and relaxation areas.</li>
+      <li>• Rich birdlife and wildlife.</li>
+      <li>• Peaceful and calm atmosphere.</li>
+      <li>• Ideal place for nature lovers.</li>
+      
     </ul>
   </div>
 
@@ -141,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/flacq1.jpg",
-      title: "Super U Flacq",
-      desc: "Super U Flacq, a popular shopping stop in eastern Mauritius, offers a lively mix of local products, fresh foods, and international brands. With its vibrant atmosphere and wide variety, it reflects everyday island life and convenient modern shopping.",
+      img: "/BdEloop.jpg",
+      title: "Bras d’Eau National Park",
+      desc: "Bras d’Eau National Park, a stunning natural reserve in eastern Mauritius, offers a unique blend of pristine beaches, lush forests, and diverse wildlife. With its crystal-clear lagoons and scenic trails, it provides an unforgettable experience for nature lovers and adventure seekers.",
     },
     
   ].map((item, idx) => (

@@ -81,15 +81,15 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Historic former sugar will be transformed into modern interactive museum. </li>
-    <li>Sugar tasting (Variety of local raw Aavored Sugars).</li>
-    <li>Village Boutique (Shop for sugar products).</li>
-    <li>Historic Sugar Factory (Learn about the sugar industry). </li>
-    <li>Historic Sugar Mill (Learn about the sugar industry). </li>
-    <li>Colonial Architecture (Explore restored buildings).</li>
-    <li>Lush Gardens (Stroll through tropical gardens).</li>
-    <li>Cultural Exhibits (Discover local heritage).</li>
-    
+    <li>• Historic former sugar will be transformed into modern interactive museum. </li>
+    <li>• Sugar tasting (Variety of local raw Aavored Sugars).</li>
+    <li>• Village Boutique (Shop for sugar products).</li>
+    <li>• Historic Sugar Factory (Learn about the sugar industry). </li>
+    <li>• Historic Sugar Mill (Learn about the sugar industry). </li>
+    <li>• Colonial Architecture (Explore restored buildings).</li>
+    <li>• Lush Gardens (Stroll through tropical gardens).</li>
+    <li>• Cultural Exhibits (Discover local heritage).</li>
+
     </ul>
   </div>
 
@@ -102,10 +102,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+    <li>• Tour Availability: Operates Daily.</li>
+    <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
+    <li>• Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
+    <li>• Free Wi-Fi available in the vehicle.</li>
     </ul>
   </div>
 </div>

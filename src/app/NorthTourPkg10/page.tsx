@@ -81,18 +81,16 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Sumbarine Adventure. </li>
-    <li>Colorfull coroll gardens.</li>
-    <li>Tropical fish species. </li>
-    <li>Historic shipwork.</li>
-    <li>Subscotter ride (30 mins).</li>
-    <li>Glass bottom boat ride (30 mins).</li>
-    <li>Underwater sea walk (30 mins).</li>
-        <li>Dolphin watching (30 mins).</li>
-        <li>Snorkeling (30 mins). </li>
-        
-    
-    
+    <li>• Shopping. </li>
+    <li>• Dinning.</li>
+    <li>• Entertainment and family fun. </li>
+    <li>• Historic shipwork.</li>
+    <li>• Learn about the history of sugar production in Mauritius.</li>
+        <li>• Explore restored colonial buildings and lush gardens.</li>
+        <li>• Enjoy a sunset over the Atlantic Ocean.</li>
+        <li>• Relax on the beach.</li>
+        <li>• Experience the vibrant culture of Mauritius.</li>
+        <li>• Discover the island's natural wonders.</li>
     </ul>
   </div>
 
@@ -105,10 +103,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+    <li>• Tour Availability: Operates Daily.</li>
+    <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
+    <li>• Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
+    <li>• Free Wi-Fi available in the vehicle.</li>
     </ul>
   </div>
 </div>
@@ -141,9 +139,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/safari.png",
-      title: "Blue Safari",
-      desc: "Blue Safari is an exciting underwater adventure offering a unique view of Mauritius’s marine life. Glide beneath the ocean’s surface in a submarine-style vessel and discover colorful coral reefs, tropical fish, and the beauty of the deep in a thrilling, immersive experience.",
+      img: "/la.jpg",
+      title: "Grand Baie La Croisette",
+      desc: "Grand Baie La Croisette is a modern lifestyle and shopping destination in Mauritius. Enjoy its stylish stores, diverse dining options, entertainment spaces, and relaxed surroundings, making it a lively hub for leisure and everyday experiences.",
     },
    
   ].map((item, idx) => (

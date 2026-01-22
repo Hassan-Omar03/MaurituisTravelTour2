@@ -81,15 +81,15 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>Over 45 tanks.</li>
-    <li>More then 200 species.</li>
-    <li>Interactive touch pool.</li>
-    <li>Charming lagoon.</li>
-    <li>Unforgettable beaches.</li>
-      <li>Vibrant marine life.</li>
-    <li>Educational exhibits.</li>
-      <li>Family-friendly activities.</li>
-      
+    <li>• Over 45 tanks.</li>
+    <li>• More then 200 species.</li>
+    <li>• Interactive touch pool.</li>
+    <li>• Charming lagoon.</li>
+    <li>• Unforgettable beaches.</li>
+      <li>• Vibrant marine life.</li>
+    <li>• Educational exhibits.</li>
+      <li>• Family-friendly activities.</li>
+
     
     </ul>
   </div>
@@ -103,10 +103,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li> Tour Availability: Operates Daily.</li>
-    <li> Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
-    <li> Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
-    <li> Free Wi-Fi available in the vehicle.</li>
+    <li>• Tour Availability: Operates Daily.</li>
+    <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
+    <li>• Flexible Pick-Up Time — start your experience anytime between 8:30 AM and 10:00 AM.</li>
+    <li>• Free Wi-Fi available in the vehicle.</li>
     </ul>
   </div>
 </div>

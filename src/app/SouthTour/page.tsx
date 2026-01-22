@@ -203,6 +203,13 @@ export default function HomePage() {
       link: "/SouthTourPkg12",
       places: ["Coastal Sea View"],
     },
+    {
+      title: "Package 13: South Tour 13",
+      desc: "Set amid lush tropical surroundings, Takamaka Winery offers a refined escape where nature, craftsmanship, and local flavors come together. Fragrant vines, sun-drenched grounds, and a warm island ambiance invite visitors to slow down and savor each moment.",
+      img: hero1.src,
+      link: "/SouthTourPkg13",
+      places: ["Takamaka winery"],
+    },
     
   ].map((card, idx) => (
     <article

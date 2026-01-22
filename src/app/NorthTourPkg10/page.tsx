@@ -65,7 +65,7 @@ export default function HomePage() {
       {/* Intro */}
       <p className="text-white mb-12">
          <T>
-                      At Mauritius Travel & Tour, we’re dedicated to providing service that exceeds expectations — blending safety, comfort, and spotless cleanliness to make every journey both dependable and delightful.
+                      At Mauritius Travel & Tour, we&apos;re dedicated to providing service that exceeds expectations — blending safety, comfort, and spotless cleanliness to make every journey both dependable and delightful.
                     </T>
       </p>
 
@@ -90,7 +90,7 @@ export default function HomePage() {
         <li>• Enjoy a sunset over the Atlantic Ocean.</li>
         <li>• Relax on the beach.</li>
         <li>• Experience the vibrant culture of Mauritius.</li>
-        <li>• Discover the island's natural wonders.</li>
+        <li>• Discover the island&apos;s natural wonders.</li>
     </ul>
   </div>
 

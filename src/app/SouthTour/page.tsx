@@ -210,6 +210,27 @@ export default function HomePage() {
       link: "/SouthTourPkg13",
       places: ["Takamaka winery"],
     },
+    {
+          title: "Package 14: South Tour 14",
+          desc: "Rivière des Galets is a scenic and adventurous river trail surrounded by dramatic cliffs, lush greenery, and flowing fresh water. Known for its natural rock formations and wild beauty, it offers an off-the-beaten-path experience that showcases Mauritius in its raw and untouched form.",
+          img: hero1.src,
+          link: "/SouthTourPkg14",
+          places: ["Rivière des Galets"],
+        },
+        {
+          title: "Package 15: South Tour 15",
+          desc: "Crocodile Park, located in the lush south of Mauritius, is famous for its giant crocodiles and rich wildlife. Set within a tropical reserve, the park blends conservation, education, and adventure, offering close encounters with reptiles, animals, and endemic species in a natural setting.",
+          img: hero1.src,
+          link: "/SouthTourPkg15",
+          places: ["Crocodile Park"],
+        },
+        {
+          title: "Package 16: South Tour 16",
+          desc: "Gris Gris Beach, located on the rugged southern coast of Mauritius, stands out for its dramatic cliffs and powerful waves. Unlike most beaches on the island, it has no coral reef, allowing the Indian Ocean to crash freely against the shore, revealing a raw, wild, and strikingly beautiful seascape.",
+          img: hero1.src,
+          link: "/SouthTourPkg16",
+          places: ["Gris Gris Beach"],
+        },
     
   ].map((card, idx) => (
     <article

@@ -61,7 +61,7 @@ export default function HomePage() {
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 7</h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 8</h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
         Dreamy Mauritius
       </h1>
@@ -84,12 +84,12 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>• Guided hike up the iconic Le Morne Brabant mountain.</li>
-   <li>• Trails passing through forests and rocky paths.</li>
-    <li>• Spectacular panoramic views from the summit.</li>
-   <li>• Overlooks crystal-clear lagoons and coral reefs.</li>
-   <li>• Rich historical and cultural significance.</li>
-   <li>• A perfect mix of adventure, nature, and scenery.</li>
+    <li>• Discover the famous Seven Cascades (Tamarind Falls).</li>
+   <li>• Scenic hiking trails through dense greenery.</li>
+    <li>• Multiple waterfalls and natural swimming pools.</li>
+   <li>• Ideal for nature lovers and adventure seekers.</li>
+  <li>• Guided hikes available for safety and local insight.</li>
+   <li>• Experience raw, untouched natural beauty.</li>
     </ul>
   </div>
 
@@ -140,9 +140,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/5b.jpg",
-      title: "Le Morne Mountain",
-      desc: "Le Morne Mountain hiking is a rewarding adventure that leads through lush trails to breathtaking panoramic views. Rising above the southwest coast, this UNESCO World Heritage mountain blends natural beauty, history, and challenge, offering sweeping vistas of turquoise lagoons and the open Indian Ocean.",
+      img: "/bb.jpg",
+      title: "Tamarind Falls",
+      desc: "Tamarind Falls, also known as the Seven Cascades, is a hidden natural treasure set deep within lush forests and rugged valleys. This breathtaking site reveals a series of cascading waterfalls, natural pools, and dramatic landscapes, offering a true sense of adventure and untouched beauty in the heart of Mauritius.",
     },
   ].map((item, idx) => (
     <article

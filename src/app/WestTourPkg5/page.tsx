@@ -61,7 +61,7 @@ export default function HomePage() {
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 5</h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 6</h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
         Dreamy Mauritius
       </h1>
@@ -84,13 +84,10 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>• Scenic boat ride across calm, turquoise lagoons.</li>
-   <li>• Visit the iconic Crystal Rock rising from the clear lagoon.</li>
-    <li>• Relax on the sandy shores of Île aux Bénitiers.</li>
-    <li>• Opportunities for swimming and snorkeling in shallow waters.</li>
-    <li>• Enjoy breathtaking views of Le Morne Brabant.</li>
-    
-    
+    <li>• Scenic seaplane takeoff and landing on the lagoon.</li>
+   <li>• Panoramic aerial views of coral reefs and sandbanks.</li>
+    <li>• Fly over crystal-clear waters and coastal landscapes.</li>
+    <li>• Perfect for photography and once-in-a-lifetime moments.</li> 
     </ul>
   </div>
 
@@ -141,8 +138,8 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/benitiers.jpg",
-      title: "Île aux Bénitiers and Crystal Rock",
+      img: "/flight.jpg",
+      title: "Seaplane at La Prairie Lagoon",
       desc: "Seaplane at La Prairie Lagoon offers a breathtaking aerial view of Mauritius’ turquoise lagoons and dramatic coastline. Taking off and landing on calm waters, the experience combines thrill and elegance, revealing coral reefs, sandbanks, and mountain backdrops from a truly unique perspective.",
     },
   ].map((item, idx) => (

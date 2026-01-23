@@ -206,6 +206,14 @@ export default function HomePage() {
       link: "/NorthTourPkg11",
       places: ["Red Church (Notre-Dame Auxiliatrice)"],
     },
+    {
+          title: "Package 12: North Tour 12",
+          desc: "Grand Baie Bazar in Mauritius is a vibrant market offering a fusion of local crafts, textiles, and souvenirs. Visitors explore stalls filled with colorful items, spices, and unique finds in a lively atmosphere.",
+          img: hero1.src,
+          link: "/NorthTourPkg12",
+          places: ["Casela Nature and Leisure Park"],
+        },
+        
   ].map((card, idx) => (
      <article
       key={idx}

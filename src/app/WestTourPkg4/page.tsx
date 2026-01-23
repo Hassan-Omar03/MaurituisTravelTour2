@@ -61,7 +61,7 @@ export default function HomePage() {
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 4</h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 5</h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
         Dreamy Mauritius
       </h1>
@@ -84,11 +84,11 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>• Boat excursion into the open waters of the Indian Ocean.</li>
-   <li>• Chance to see playful dolphins in their natural habitat.</li>
-    <li>• Seasonal sightings of majestic whales near the coast.</li>
-    <li>• Guided tours with experienced local skippers.</li>
-    <li>• Respectful and eco-friendly wildlife observation.</li>
+    <li>• Scenic boat ride across calm, turquoise lagoons.</li>
+   <li>• Visit the iconic Crystal Rock rising from the clear lagoon.</li>
+    <li>• Relax on the sandy shores of Île aux Bénitiers.</li>
+    <li>• Opportunities for swimming and snorkeling in shallow waters.</li>
+    <li>• Enjoy breathtaking views of Le Morne Brabant.</li>
     
     
     </ul>
@@ -141,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/3d.jpg",
-      title: "Dolphin and Whale Watching",
-      desc: "Dolphin and Whale Watching in Mauritius offers an unforgettable encounter with ocean life in the island’s deep blue waters. Guided boat excursions reveal playful dolphins and majestic whales in their natural habitat, blending adventure, respect for nature, and the breathtaking beauty of the Indian Ocean.",
+      img: "/benitiers.jpg",
+      title: "Île aux Bénitiers and Crystal Rock",
+      desc: "Seaplane at La Prairie Lagoon offers a breathtaking aerial view of Mauritius’ turquoise lagoons and dramatic coastline. Taking off and landing on calm waters, the experience combines thrill and elegance, revealing coral reefs, sandbanks, and mountain backdrops from a truly unique perspective.",
     },
   ].map((item, idx) => (
     <article

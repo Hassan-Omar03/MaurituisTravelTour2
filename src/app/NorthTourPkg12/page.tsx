@@ -38,7 +38,7 @@ export default function HomePage() {
         <Image src={hero3} alt="Mauritius aerial" fill priority className="object-cover absolute z-0" />
         <div className="relative z-10 flex w-[90%] max-w-[1300px] mx-auto items-end justify-center h-full">
           <div className="flex justify-center items-center flex-wrap gap-8 mb-24" >
-          <h1 className="md:text-6xl text-4xl text-white">Refresh Your Soul with <br /> Exclusive West Tours </h1>
+          <h1 className="md:text-6xl text-4xl text-white">Refresh Your Soul with <br /> Exclusive North Tours </h1>
          <a
   href="https://wa.me/23057526968?text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours."
   target="_blank"
@@ -61,7 +61,7 @@ export default function HomePage() {
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 8</h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 12</h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
         Dreamy Mauritius
       </h1>
@@ -84,12 +84,13 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>• Discover the famous Seven Cascades (Tamarind Falls).</li>
-   <li>• Scenic hiking trails through dense greenery.</li>
-    <li>• Multiple waterfalls and natural swimming pools.</li>
-   <li>• Ideal for nature lovers and adventure seekers.</li>
-  <li>• Guided hikes available for safety and local insight.</li>
-   <li>• Experience raw, untouched natural beauty.</li>
+    <li>• Pick-up from your hotel or residence in the morning.</li>
+    <li>• Visit the world-famous Casela Nature & Leisure Park.</li>
+    <li>• Take part in thrilling activities such as quad biking, ziplining, the Nepalese bridge, canyon swing, toboggan rides, and the Tulawaka and Racer Doub Doub adventures.</li>
+    <li>• Experience close encounters through walking with lions, animal feeding, fish feeding, 4D cinema, and camel rides.</li>
+    <li>• Enjoy the guided Predator Kingdom tour for an unforgettable wildlife experience.</li>
+    <li>• Drop-off at your hotel or residence after the tour.</li>
+    
     </ul>
   </div>
 
@@ -106,7 +107,7 @@ export default function HomePage() {
     <li>• Tour Duration: Approximately 8 Hours (Full-Day Tour).</li>
     <li>• Flexible Pick-Up Time — begin your adventure anytime between 8:30 AM and 10:00 AM.</li>
     <li>• Free Wi-Fi available onboard the vehicle.</li>
-    <li>• If joining a <b>group</b> outing, note that pick-up may be earlier to ensure arrival before 9:00 AM.</li>
+    <li>• If opting for a <b>group</b> excursion, pick-up may be scheduled earlier to ensure arrival before 9:00 AM.</li>
     </ul>
   </div>
 </div>
@@ -122,14 +123,14 @@ export default function HomePage() {
   </div>
 
   <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-  <li>• Payment can be made directly to the driver in MUR, USD, or EUR.</li>
-  <li>• Pricing is per vehicle, not per person.</li>
-  <li>• Includes full-day private transportation to all mentioned destinations.</li>
-  <li>• A friendly English- or French-speaking driver will share helpful insights during your journey.</li>
-  <li>• Entry fees to attractions are not included.</li>
-  <li>• For lunch, your driver will suggest top-rated local restaurants so you can enjoy authentic Mauritian cuisine.</li>
-  <li>• <b>Custom combinations are available — speak with your driver if you’d like to merge two tour packages.</b></li>
-  <li>• <b>NOTE: 15-seater and 30-seater vehicles available upon request.</b></li>
+    <li>• Payment can be made directly to the driver in MUR, USD, or EUR.</li>
+    <li>• Pricing is per vehicle, not per person.</li>
+    <li>• Includes full-day private transportation to all mentioned destinations.</li>
+    <li>• A friendly English- or French-speaking driver will share helpful insights during your journey.</li>
+    <li>• Entry ticket fees are not included.</li>
+    <li>• For lunch, your driver will suggest top-rated local restaurants so you can enjoy authentic Mauritian cuisine.</li>
+    <li>• <b>Custom combinations are available — speak with your driver if you’d like to merge two tour packages.</b></li>
+    <li>• <b>NOTE: 15-seater and 30-seater vehicles available upon request.</b></li>
   </ul>
 </div>
 
@@ -140,9 +141,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/bb.jpg",
-      title: "Tamarind Falls",
-      desc: "Tamarind Falls, also known as the Seven Cascades, is a hidden natural treasure set deep within lush forests and rugged valleys. This breathtaking site reveals a series of cascading waterfalls, natural pools, and dramatic landscapes, offering a true sense of adventure and untouched beauty in the heart of Mauritius.",
+      img: "/casela.jpg",
+      title: "CASELA NATURE AND LEISURE PARK",
+      desc: "Casela Nature & Leisure Park in Mauritius offers a thrilling blend of adventure and wildlife. From safaris and ziplining to encounters with big cats and exotic animals, it’s the ultimate outdoor experience surrounded by lush natural scenery.",
     },
   ].map((item, idx) => (
     <article

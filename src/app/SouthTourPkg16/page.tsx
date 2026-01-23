@@ -38,7 +38,7 @@ export default function HomePage() {
         <Image src={hero3} alt="Mauritius aerial" fill priority className="object-cover absolute z-0" />
         <div className="relative z-10 flex w-[90%] max-w-[1300px] mx-auto items-end justify-center h-full">
           <div className="flex justify-center items-center flex-wrap gap-8 mb-24" >
-          <h1 className="md:text-6xl text-4xl text-white">Refresh Your Soul with <br /> Exclusive West Tours </h1>
+          <h1 className="md:text-6xl text-4xl text-white">Refresh Your Soul with <br /> Exclusive South Tours </h1>
          <a
   href="https://wa.me/23057526968?text=Hi!%20I'd%20like%20to%20know%20more%20about%20your%20tours."
   target="_blank"
@@ -61,7 +61,7 @@ export default function HomePage() {
     {/* --- Content --- */}
     <div className="relative z-10 max-w-6xl mx-auto px-6 pt-10 text-center">
       {/* Header */}
-      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 10</h2>
+      <h2 className="text-3xl md:text-5xl font-medium mb-2 text-teal-300">Package 16</h2>
       <h1 className="text-4xl md:text-5xl font-medium text-teal-300 mb-2">
         Dreamy Mauritius
       </h1>
@@ -84,11 +84,11 @@ export default function HomePage() {
     </div>
 
     <ul className="space-y-2 text-gray-200 text-lg leading-relaxed">
-    <li>• Guided river hike through rocky paths and flowing streams.</li>
-   <li>• Surrounded by cliffs, forests, and untouched landscapes.</li>
-   <li>• Walk across smooth stones and shallow water sections.</li>
-   <li>• Ideal for adventure lovers and nature explorers.</li>
-  <li>• Peaceful atmosphere away from tourist crowds.</li>
+   <li>• Located on the wild southern coast of Mauritius.</li>
+   <li>• One of the few beaches without a protective coral reef.</li>
+   <li>• Known for strong waves and dramatic ocean views.</li>
+  <li>• Surrounded by cliffs and rugged natural scenery.</li>
+  
     </ul>
   </div>
 
@@ -139,9 +139,9 @@ export default function HomePage() {
 <div className="flex max-w-[1300px] w-[90%] mx-auto flex-wrap justify-center items-center gap-6  pb-10 bg-white">
   {[
     {
-      img: "/columnImage.jpg",
-      title: "Crocodile Park",
-      desc: "Crocodile Park, located in the lush south of Mauritius, is famous for its giant crocodiles and rich wildlife. Set within a tropical reserve, the park blends conservation, education, and adventure, offering close encounters with reptiles, animals, and endemic species in a natural setting.",
+      img: "/gris.jpg",
+      title: "Gris Gris Beach",
+      desc: "Gris Gris Beach, located on the rugged southern coast of Mauritius, stands out for its dramatic cliffs and powerful waves. Unlike most beaches on the island, it has no coral reef, allowing the Indian Ocean to crash freely against the shore, revealing a raw, wild, and strikingly beautiful seascape.",
     },
   ].map((item, idx) => (
     <article

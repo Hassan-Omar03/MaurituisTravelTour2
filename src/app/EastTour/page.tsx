@@ -169,10 +169,10 @@ export default function HomePage() {
     },
     {
       title: "Package 7: East Tour 7",
-      desc: "Saint Aubin Vanilla Plantation, set in the fertile south of Mauritius, delights with fragrant vines and lush tropical surroundings. Showcasing traditional cultivation and rich aromas, it reveals the island’s agricultural heritage and the delicate beauty of natural vanilla.",
+      desc: "Saint Julien Vanilla Plantation, set in the fertile south of Mauritius, delights with fragrant vines and lush tropical surroundings. Showcasing traditional cultivation and rich aromas, it reveals the island’s agricultural heritage and the delicate beauty of natural vanilla.",
       img: hero1.src,
       link: "/EastTourPkg7",
-      Places: ["Saint Aubin Vanilla Plantation"],
+      Places: ["Saint Julien Vanilla Plantation"],
     },
     
     {
